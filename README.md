@@ -16,7 +16,7 @@ Once you have cloned the repository and ran `bundle install` in your command lin
 * You also have the ability to see recent messages sent from all messages with the same options for search results filtering (last 100 or within the last 30 days) with `curl -X GET  "localhost:3000/api/v1/recent_messages?in_the_last_30_days=true”` returning all messages within the last 30 days and `curl -X GET  "localhost:3000/api/v1/recent_messages?in_the_last_30_days=false”` returning the last 100 messages.
 
 
-# Next Steps
+## Next Steps
 
 From here I have a number of next steps for what I would do and what other features I would have added. 
 * I first would've deployed out to heroku so that I could then create a small local rails app that would be able to communicate with the api. 
